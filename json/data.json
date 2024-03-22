@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Crystal jelly",
+    "image_path": "/img/Crystal.png",
+    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "price": 84
+  },
+  {
+    "name": "Cross jelly",
+    "image_path": "/img/Cross.png",
+    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "price": 112
+  },
+  {
+    "name": "Pacific Sea nettle",
+    "image_path": "/img/Pacific.png",
+    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "price": 200
+  },
+  {
+    "name": "Midwater jelly",
+    "image_path": "/img/Midwater.png",
+    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "price": 55
+  },
+  {
+    "name": "Moon jelly",
+    "image_path": "/img/Moon.png",
+    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "price": 140
+  },
+  {
+    "name": "Crown jelly",
+    "image_path": "/img/Crown.png",
+    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "price": 83
+  },
+  {
+    "name": "Bell jelly",
+    "image_path": "/img/Bell.png",
+    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "price": 91
+  },
+  {
+    "name": "Comb jelly",
+    "image_path": "/img/Comb.png",
+    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "price": 111
+  },
+  {
+    "name": "Egg",
+    "image_path": "/img/Egg.png",
+    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "price": 120
+  }
+]

@@ -7,10 +7,17 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      backgroundImage:{
+        "banner": "url('./../../public/img/banner.jpg')",
+      },
+      keyframes: {
+        scale: {
+          '0%': { transform: 'scaleY(0)' },
+          '100%': { transform: 'scaleY(1)' },
+        },
+      }, 
+      animation: {
+        scale: 'scale 1s ease',
       },
     },
   },
