@@ -59,7 +59,7 @@ export default function Navbar() {
       <div className="w-[80%] justify-end items-center gap-8 hidden md:flex">
         {links.map((element, id) => {
           return (
-            <Link
+            <Link key={id}
               href={element.href}
               className={`text-[15px] text-white tracking-wider hover:text-[#C058C6ff] ${
                 element.name == "OUR JELLYFISH"

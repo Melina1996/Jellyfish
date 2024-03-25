@@ -54,7 +54,7 @@ export default function Carousel() {
         {slides.map((element, id) => {
           return (
             //each div takes the width of the whole screen
-            <div className="flex justify-center items-center w-screen relative">
+            <div className="flex justify-center items-center w-screen relative" key={id}>
               <button className="absolute left-40" onClick={()=>previousSlide()}><ArrowLeftIcon className="w-[30px] h-[30px] font-semibold"/></button>
 
               <div className="w-[100%] md:w-[50%] max-[426px]:w-[100%] flex justify-center items-center max-[426px]:pb-20 max-[426px]:pt-10 group">
@@ -85,13 +85,15 @@ export default function Carousel() {
         {slides.map((element, id) => {
           return (
             //tertinary condition: bg-color changes when slide active -> current is == id
-            <div
+            <div key={id}
               onClick={() => setCurrent(id)}
               id={"circle" + 1}
               className={`rounded-full w-5 h-5 cursor-pointer ${
                 id == current ? "bg-black" : "bg-[#808080]"
               }`}
             ></div>
+
+            
           );
         })}
       </div>

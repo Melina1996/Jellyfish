@@ -129,7 +129,7 @@ export default function MyProducts() {
       <div className="flex flex-wrap justify-center items-start gap-6 min-h-screen w-[85%]">
         {currentItems.map((element, id) =>
           element.name.includes(jellyfish) ? (
-            <div className="w-[300px] h-[280px]">
+            <div className="w-[300px] h-[280px]" key={id}>
               <div
                 className="w-[100%] h-[80%] image-container rounded-lg"
                 key={id}
