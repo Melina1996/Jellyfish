@@ -11,6 +11,10 @@
   transform-origin: right;
 }
 
+.mySecondBurger{
+  transform-origin: top;
+}
+
 .image-container{
   overflow: hidden;
 }

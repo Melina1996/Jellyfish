@@ -3,14 +3,10 @@ import MyProducts from "./MyProducts";
 
 export default function Products() {
   return (
-    <div>
-      <div className="bg-banner bg-cover h-[600px] w-[100%] top-0 flex justify-center items-center">
-        <h1 className="text-[70px] text-white font-semibold tracking-widest">
-          <span className="hover:text-[#C058C6ff]">OUR JELLYFISH</span> .
-        </h1>{" "}
-      </div>
+    <div className="flex flex-col justify-center items-center gap-6 w-screen min-h-screen">
+      <div className="h-[100px] w-screen absolute top-0 bg-black"></div>
 
-      <div className="flex justify-center items-center p-12">
+      <div className="flex justify-center items-center pt-32">
         <MyProducts />
       </div>
     </div>

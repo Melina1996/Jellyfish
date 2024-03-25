@@ -50,7 +50,7 @@ export default function Sidebar(props) {
       <div className="w-[100%] flex flex-col justify-center items-start gap-4 px-10">
         <h1 className="tracking-wider font-semibold">BASKET</h1>
         {basketItems.length != 0 ? (
-          <div>
+          <div className="flex flex-col gap-2">
             {basketItems.map((element, id) => {
               return <MyBasket element={element} key={id} myId={id} />;
             })}
@@ -65,7 +65,7 @@ export default function Sidebar(props) {
               </div>
               <div className="w-[100%] flex justify-center items-center">
                 <p className="w-[50%] text-gray-500 text-left">Shipping:</p>
-                <p className="w-[50%] text-right">3 €</p>
+                <p className="w-[50%] text-right">3.55 €</p>
               </div>
             </div>
 
