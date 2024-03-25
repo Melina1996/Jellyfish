@@ -16,6 +16,7 @@ export default function MyBasket(props) {
           width={300}
           height={300}
           className="rounded-lg"
+          alt={"product"}
         />
       </div>
 

@@ -37,7 +37,7 @@ export default function Burger(props) {
           onClick={() => props.setBurger(!props.burger)}
           className={`hover:rotate-180 drop-shadow-xl duration-[500ms] absolute top-6 right-6`}
         >
-          <Image src={Close} width={25} height={25} />
+          <Image src={Close} width={25} height={25} alt={"burger"}/>
         </button>
         
 

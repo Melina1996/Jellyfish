@@ -43,7 +43,8 @@ export default function Sidebar(props) {
             props.open ? "block" : "hidden"
           }`}
         >
-          <Image src={Close} width={25} height={25} />
+          <Image src={Close} width={25} height={25} alt={"close"}
+/>
         </button>
       </div>
 
