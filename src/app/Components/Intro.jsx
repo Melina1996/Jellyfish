@@ -14,7 +14,7 @@ export default function Intro() {
               Step right up, jelly aficionados and aquatic enthusiasts! Welcome
               to{" "}
               <span className="font-semibold text-[#C058C6ff]">TheJelly.</span>,
-              where we're flipping the script on pet ownership and diving
+              where we are flipping the script on pet ownership and diving
               headfirst into the wibbly-wobbly world of jellyfish!
             </p>
           </div>
@@ -23,11 +23,11 @@ export default function Intro() {
           <p>
             Tired of walking the dog or cleaning up after the cat? Say goodbye
             to fur-covered furniture and hello to the mesmerizing elegance of
-            our gelatinous pals from the deep blue. Whether you're a seasoned
-            aquarist or just dipping your toes into the underwater realm, we've
+            our gelatinous pals from the deep blue. Whether you are a seasoned
+            aquarist or just dipping your toes into the underwater realm, we have
             got something for everyone. With worldwide shipping and expert care
             advice, TheJelly is your one-stop-shop for all things gelatinous.
-            Let's make waves together and turn your tank into a jelly-filled
+            Let us make waves together and turn your tank into a jelly-filled
             masterpiece. Adventure awaits beneath the surface!
           </p>
         </div>

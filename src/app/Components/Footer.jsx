@@ -62,16 +62,16 @@ export default function Footer() {
 
         <div className="flex justify-center items-center gap-12">
           <div className="flex gap-3 justify-center items-center">
-            <Image src={FB} width={30} height={30} />
+            <Image src={FB} width={30} height={30} alt="facebook"/>
             <p className="text-white text-[14px] max-[426px]:hidden hover:text-[#C058C6ff]">FACEBOOK</p>
           </div>
           <div className="flex gap-3 justify-center items-center">
-            <Image src={TWITTER} width={30} height={30} />
+            <Image src={TWITTER} width={30} height={30} alt="twitter"/>
             <p className="text-white text-[14px] max-[426px]:hidden hover:text-[#C058C6ff]">TWITTER</p>
           </div>
 
           <div className="flex gap-3 justify-center items-center">
-            <Image src={INSTAGRAM} width={30} height={30} />
+            <Image src={INSTAGRAM} width={30} height={30} alt="instagram"/>
             <p className="text-white text-[14px] max-[426px]:hidden hover:text-[#C058C6ff]">INSTAGRAM</p>
           </div>
         </div>
