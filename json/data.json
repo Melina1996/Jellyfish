@@ -2,55 +2,55 @@
   {
     "name": "Crystal jelly",
     "image_path": "/img/Crystal.png",
-    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "description": "The crystal jellyfish, scientifically known as Aequorea victoria, dazzles with its transparent, crystalline bell that refracts light like a precious gem. Floating gracefully in ocean currents, it trails delicate tentacles armed with stinging cells. Found in colder waters, encounters with crystal jellyfish unveil the mesmerizing beauty of bioluminescence. While its sting is typically mild, its radiant presence illuminates the wonders of the deep sea.",
     "price": 84
   },
   {
     "name": "Cross jelly",
     "image_path": "/img/Cross.png",
-    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "description": "The cross jellyfish, or Mitrocoma cellularia, showcases a striking cross-shaped pattern on its transparent bell, resembling stained glass. Drifting in cold waters, it trails fine, branching tentacles armed with stinging cells. Despite its intricate appearance, encounters with the cross jellyfish are captivating and usually harmless to humans. Its presence adds a touch of mystique to the underwater world, highlighting the diverse forms and patterns found in nature's creations.",
     "price": 112
   },
   {
     "name": "Pacific Sea nettle",
     "image_path": "/img/Pacific.png",
-    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "description": "The Pacific sea nettle, Chrysaora fuscescens, commands attention with its vibrant orange bell and long, trailing tentacles adorned with stinging cells. Found in the Pacific Ocean, it gracefully navigates coastal waters, its translucent body often illuminated by sunlight. While its sting can be painful to humans, encountering a Pacific sea nettle offers a glimpse into the dynamic ecosystem of the ocean, where beauty and danger intertwine in mesmerizing ways.",
     "price": 200
   },
   {
     "name": "Midwater jelly",
     "image_path": "/img/Midwater.png",
-    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "description": "The midwater jellyfish, dwelling in the twilight depths of the ocean, features a delicate, translucent bell and long, trailing tentacles. Its ethereal presence, often adorned with bioluminescent spots, adds to the mystique of the deep sea. With graceful movements, it navigates the dimly lit waters, capturing prey with its stinging tentacles. Encounters with midwater jellyfish offer a glimpse into the mesmerizing and lesser-known realms of oceanic life.",
     "price": 55
   },
   {
     "name": "Moon jelly",
     "image_path": "/img/Moon.png",
-    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "description": "The moon jellyfish, Aurelia aurita, drifts through waters with a translucent bell and trailing tentacles resembling lunar phases. Despite its delicate appearance, it efficiently captures prey with stinging tentacles. Lacking a centralized nervous system, it navigates using rudimentary sensory cells, propelled by gentle pulsating movements. Encountering a moon jellyfish offers a mesmerizing glimpse into marine life's beauty, its sting typically mild to humans.",
     "price": 140
   },
   {
     "name": "Crown jelly",
     "image_path": "/img/Crown.png",
-    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "description": "The crown jellyfish, also known as Cephea cephea, boasts a majestic appearance with its ornate, crown-like structure atop a translucent bell. Found in tropical seas, it glides gracefully, trailing delicate tentacles adorned with stinging cells. Despite its regal appearance, its sting is usually mild to humans. Encounter with a crown jellyfish offers a captivating glimpse into the enchanting diversity of ocean life.",
     "price": 83
   },
   {
     "name": "Bell jelly",
     "image_path": "/img/Bell.png",
-    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "description": "The bell jellyfish, known for its simple yet captivating appearance, features a translucent, dome-shaped bell and trailing tentacles. Drifting gracefully in ocean currents, it captures prey with its stinging cells. Despite its unassuming nature, encounters with bell jellyfish offer a mesmerizing glimpse into the intricate beauty of marine life. With its gentle pulsating movements, it embodies the serene elegance of the underwater world, reminding us of the wonders that lie beneath the surface.",
     "price": 91
   },
   {
     "name": "Comb jelly",
     "image_path": "/img/Comb.png",
-    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "description": "The comb jellyfish, or ctenophore, showcases a captivating iridescence as it glides through ocean waters. Its transparent, gelatinous body is adorned with rows of cilia that refract light, creating a shimmering effect. With graceful movements, it propels itself using comb-like structures. Despite its jellyfish-like appearance, it belongs to a distinct phylum. Encounters with comb jellies offer a mesmerizing glimpse into the diverse and enchanting inhabitants of the marine world.",
     "price": 111
   },
   {
     "name": "Egg",
     "image_path": "/img/Egg.png",
-    "description": "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+    "description": "The egg jellyfish, Phacellophora camtschatica, floats with an otherworldly grace in ocean currents. Its translucent, dome-shaped bell resembles a delicate egg, while trailing tentacles sway gently below. Found in cold waters, encounters with this majestic creature unveil its serene beauty. Despite its peaceful appearance, its stinging tentacles capture prey efficiently. Witnessing an egg jellyfish drifting through the depths offers a mesmerizing glimpse into the captivating diversity of marine life.",
     "price": 120
   }
 ]

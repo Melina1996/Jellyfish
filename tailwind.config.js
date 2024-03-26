@@ -11,13 +11,25 @@ module.exports = {
         "banner": "url('./../../public/img/banner.jpg')",
       },
       keyframes: {
-        scale: {
-          '0%': { transform: 'scaleY(0)' },
-          '100%': { transform: 'scaleY(1)' },
+        slider:{
+          from: {
+            transform: "translateX(0)",
+          },
+          to: {
+            transform: "translateX(-100%)",
+          }
+        },
+        ping: {
+          '0%': { opacity: 1 },
+          '25%': { opacity: 0.75 },
+          '50%':  { opacity: 0.5 },
+          '75%': { opacity: 0.25 },
+          '100%':  { opacity: 0 },
         },
       }, 
       animation: {
-        scale: 'scale 1s ease',
+        "pingPing": 'ping 2s linear',
+        "carousel": "slider 10s infinite linear",
       },
     },
   },

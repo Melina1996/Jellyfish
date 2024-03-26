@@ -6,6 +6,7 @@ export const basketSlice = createSlice({
   name: "basket",
   initialState: {
     value: [],
+    buy: false
   },
   reducers: {
     add: (state, action) => {
@@ -45,9 +46,12 @@ export const basketSlice = createSlice({
         state.value.splice(index, 1);
       }
     },
+    buying: (state, action) => {
+      state.buy = action.payload
+    },
   },
 });
 
-export const { add, remove, removeOneItem } = basketSlice.actions;
+export const { add, remove, removeOneItem, buying } = basketSlice.actions;
 
 export default basketSlice.reducer;

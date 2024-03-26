@@ -7,7 +7,7 @@ import Image from "next/image";
 
 import MyBasket from "./MyBasket";
 
-import Close from "../../../public/img/close.png";
+import { XMarkIcon } from "@heroicons/react/24/solid";
 
 export default function Sidebar(props) {
   const basketItems = useSelector((state) => state.basket.value); // Access the counter state
@@ -43,7 +43,7 @@ export default function Sidebar(props) {
             props.open ? "block" : "hidden"
           }`}
         >
-          <Image src={Close} width={25} height={25} alt={"close"}
+          <XMarkIcon className="w-[30px] h-[30px] text-black hover:text-[#C058C6ff]"
 />
         </button>
       </div>

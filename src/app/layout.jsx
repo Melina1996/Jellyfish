@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Inter, Ubuntu, Ubuntu_Condensed } from "next/font/google";
 import StoreProvider from "./StoreProvider";
 import NextTopLoader from "nextjs-toploader";
 import ProgressBar from "./Components/ProgressBar";
@@ -7,8 +7,14 @@ import "./globals.css";
 
 //import all of my Components I want on each page
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const ubuntu = Ubuntu({
+  weight: ["500","400"],
+  subsets: ["latin"],
+});
 
 export const metadata = {
   title: "TheJelly",
@@ -18,9 +24,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={ubuntu.className}>
         <StoreProvider>
-
           <Navbar />
           <NextTopLoader
             color="#C058C6ff"
@@ -34,10 +39,10 @@ export default function RootLayout({ children }) {
             shadow="0 0 10px #2299DD,0 0 5px #2299DD"
           />
 
-          <ProgressBar/>
+          <ProgressBar />
 
           {children}
-
+          <Footer />
         </StoreProvider>
       </body>
     </html>

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { useSelector } from "react-redux";
-import { useState } from "react";
+import { useState,useEffect,useRef } from "react";
 
 //hier die Server-Variante, um mein JSON zu lesen
 // import { promises as fs } from "fs";
@@ -9,13 +9,37 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+import Banner from "../Components/Banner";
+
+import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
+
 export default function MyProducts() {
   //server-variante data: OJO: muss async function aus meiner function machen
   // const file = await fs.readFile(process.cwd() + "/json/data.json", "utf8");
   // const data = JSON.parse(file);
 
+  const[search,setSearch]=useState(false)
+
+  //for the click outside of div to close
+  //put the ref on my input below
+
+  let menuRef = useRef()
+
+  useEffect(() => {
+    function handler(e){
+      if(!menuRef.current.contains(e.target))
+      setSearch(false)
+    }
+    document.addEventListener("mousedown",handler)
+
+    return()=>{
+      document.removeEventListener("mousedown",handler)
+    }
+  },[search])  
+
   const [jellyfish, setJellyfish] = useState("");
 
+  //to make search robust: capital or small letters do not matter
   function getInput(e) {
     setJellyfish(
       e.target.value.charAt(0).toUpperCase() +
@@ -60,15 +84,28 @@ export default function MyProducts() {
 
   return (
     <div className="flex justify-center flex-col items-center gap-6 min-h-screen w-screen">
-      <div className="w-[80%] flex justify-center items-center h-[100px]">
-        <div className="w-[20%] flex justify-center items-center gap-2">
+      <Banner />
+      <div className="w-[75%] flex justify-center items-center h-[100px]">
+        <div className="w-[20%] flex justify-start items-center gap-2">
+          <button onClick={()=>setSearch(!search)}><MagnifyingGlassIcon className="w-[25px] h-[25px] text-black font-semibold"/></button>
           {" "}
-          <input
+          {
+            search ? 
+
+            <input
+            ref={menuRef}
             type="text"
             placeholder="Search for a jellyfish"
-            className="rounded border-black p-2 border-2 outline-none placeholder:italic"
+            className="rounded border-black p-2 border-2 outline-none placeholder:italic absolute"
             onChange={(e) => getInput(e)}
           />
+
+          :
+
+          ""
+
+          }
+         
         </div>
         <div className="w-[60%] flex justify-center items-center gap-2">
           {buttons.map((element, id) => {
@@ -126,7 +163,7 @@ export default function MyProducts() {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center items-start gap-6 min-h-screen w-[85%]">
+      <div className="flex flex-wrap justify-between items-start gap-6 min-h-screen w-[75%] pb-12">
         {currentItems.map((element, id) =>
           element.name.includes(jellyfish) ? (
             <div className="w-[300px] h-[280px]" key={id}>

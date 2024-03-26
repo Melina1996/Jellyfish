@@ -13,9 +13,12 @@ import Cart from "../../../public/img/cart.png";
 import { Bars3Icon } from "@heroicons/react/24/solid";
 
 export default function Navbar() {
+
+  const bought = useSelector((state) => state.basket.buy); // Access the buy state
+
   const [open, setOpen] = useState(false);
 
-  const basketItems = useSelector((state) => state.basket.value); // Access the counter state
+  const basketItems = useSelector((state) => state.basket.value); // Access the basket state
 
   const [totalItems, setTotalItems] = useState(0);
 
@@ -74,6 +77,7 @@ export default function Navbar() {
       </div>
 
       <div className="flex justify-center items-center gap-2 w-[70px]">
+        <div className={`bg-white rounded-full w-[17px] h-[17px] absolute top-5 right-20 opacity-0 ${bought ? "animate-pingPing" : ""}`}></div>
         <button onClick={() => setOpen(!open)}>
           <Image src={Cart} width={30} height={30} alt="cart" quality={100} />
         </button>
